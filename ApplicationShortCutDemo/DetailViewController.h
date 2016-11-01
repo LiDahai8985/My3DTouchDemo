@@ -6,9 +6,9 @@
 //  Copyright © 2015年 Andy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MyBaseViewController.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : MyBaseViewController
 
 @property (strong, nonatomic) NSString *webUrl;
 

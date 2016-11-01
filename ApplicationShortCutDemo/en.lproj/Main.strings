@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Second"; ObjectID = "7Z3-j5-IM4"; */
+"7Z3-j5-IM4.normalTitle" = "Second";
+
+/* Class = "UILabel"; text = "按压程序icon进行测试（测试环境6s/6sp）"; ObjectID = "Qsb-yZ-GlM"; */
+"Qsb-yZ-GlM.text" = "按压程序icon进行测试（测试环境6s/6sp）";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "liV-ak-T6Q"; */
+"liV-ak-T6Q.normalTitle" = "Next";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "mez-Lu-mnH"; */
+"mez-Lu-mnH.title" = "Next";
+
+/* Class = "UILabel"; text = "Hello "; ObjectID = "yZq-gs-nD4"; */
+"yZq-gs-nD4.text" = "Hello ";

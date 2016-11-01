@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Andy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MyBaseViewController.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : MyBaseViewController
 
 @end

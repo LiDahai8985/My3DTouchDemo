@@ -13,14 +13,24 @@
 		74ADC6331DB8BB1A00E0494E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74ADC6311DB8BB1A00E0494E /* MainInterface.storyboard */; };
 		74ADC6371DB8BB1A00E0494E /* My3DTouchDemoExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74ADC6291DB8BB1A00E0494E /* My3DTouchDemoExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		74ADC63E1DB8BF9C00E0494E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ADC63D1DB8BF9C00E0494E /* SecondViewController.m */; };
+		74B519331DC8382100F8751C /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519311DC8382100F8751C /* MyNavigationController.m */; };
+		74B519371DC839A200F8751C /* MyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519361DC839A200F8751C /* MyBaseViewController.m */; };
+		74B5193E1DC8480F00F8751C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B5193D1DC8480F00F8751C /* UserNotifications.framework */; };
+		74B519401DC8480F00F8751C /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B5193F1DC8480F00F8751C /* UserNotificationsUI.framework */; };
+		74B519441DC8480F00F8751C /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519431DC8480F00F8751C /* NotificationViewController.m */; };
+		74B519471DC8480F00F8751C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B519451DC8480F00F8751C /* MainInterface.storyboard */; };
+		74B5194B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74B519531DC87A3F00F8751C /* MyRemoteNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519521DC87A3F00F8751C /* MyRemoteNotificationManager.m */; };
+		74B519561DC87E1F00F8751C /* MyForceTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519551DC87E1F00F8751C /* MyForceTouchManager.m */; };
+		74B519691DC8947B00F8751C /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B519661DC8947B00F8751C /* aa.png */; };
+		74B5196A1DC8947B00F8751C /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B519671DC8947B00F8751C /* search.png */; };
+		74B5196B1DC8947B00F8751C /* test_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74B519681DC8947B00F8751C /* test_1.mp4 */; };
 		A1D7F6131BD8B31A00D29063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7F6121BD8B31A00D29063 /* main.m */; };
 		A1D7F6161BD8B31A00D29063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7F6151BD8B31A00D29063 /* AppDelegate.m */; };
-		A1D7F6191BD8B31A00D29063 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7F6181BD8B31A00D29063 /* ViewController.m */; };
+		A1D7F6191BD8B31A00D29063 /* NavRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7F6181BD8B31A00D29063 /* NavRootViewController.m */; };
 		A1D7F61C1BD8B31A00D29063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D7F61A1BD8B31A00D29063 /* Main.storyboard */; };
 		A1D7F61E1BD8B31A00D29063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D7F61D1BD8B31A00D29063 /* Assets.xcassets */; };
 		A1D7F6211BD8B31A00D29063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D7F61F1BD8B31A00D29063 /* LaunchScreen.storyboard */; };
-		A1D7F66E1BD8DA2500D29063 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D7F66D1BD8DA2500D29063 /* search.png */; };
-		F78568A71C0463550090FA9C /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = F78568A61C0463550090FA9C /* aa.png */; };
 		F78568AA1C0464C50090FA9C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78568A91C0464C50090FA9C /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +42,13 @@
 			remoteGlobalIDString = 74ADC6281DB8BB1A00E0494E;
 			remoteInfo = My3DTouchDemoExtension;
 		};
+		74B519491DC8480F00F8751C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D7F6061BD8B31A00D29063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B5193B1DC8480F00F8751C;
+			remoteInfo = My3DTouchDemoNotificationExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +59,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				74ADC6371DB8BB1A00E0494E /* My3DTouchDemoExtension.appex in Embed App Extensions */,
+				74B5194B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,22 +77,36 @@
 		74ADC6341DB8BB1A00E0494E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74ADC63C1DB8BF9C00E0494E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		74ADC63D1DB8BF9C00E0494E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		74B519301DC8382100F8751C /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		74B519311DC8382100F8751C /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		74B519351DC839A100F8751C /* MyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBaseViewController.h; sourceTree = "<group>"; };
+		74B519361DC839A200F8751C /* MyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBaseViewController.m; sourceTree = "<group>"; };
+		74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = My3DTouchDemoNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B5193D1DC8480F00F8751C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		74B5193F1DC8480F00F8751C /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		74B519421DC8480F00F8751C /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		74B519431DC8480F00F8751C /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		74B519461DC8480F00F8751C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		74B519481DC8480F00F8751C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B519501DC869DD00F8751C /* My3DTouchDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = My3DTouchDemo.entitlements; sourceTree = "<group>"; };
+		74B519511DC87A3F00F8751C /* MyRemoteNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRemoteNotificationManager.h; sourceTree = "<group>"; };
+		74B519521DC87A3F00F8751C /* MyRemoteNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRemoteNotificationManager.m; sourceTree = "<group>"; };
+		74B519541DC87E1F00F8751C /* MyForceTouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyForceTouchManager.h; sourceTree = "<group>"; };
+		74B519551DC87E1F00F8751C /* MyForceTouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyForceTouchManager.m; sourceTree = "<group>"; };
+		74B519661DC8947B00F8751C /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		74B519671DC8947B00F8751C /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		74B519681DC8947B00F8751C /* test_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_1.mp4; sourceTree = "<group>"; };
+		74B5196D1DC8A19200F8751C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A1D7F60E1BD8B31A00D29063 /* My3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D7F6121BD8B31A00D29063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1D7F6141BD8B31A00D29063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1D7F6151BD8B31A00D29063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1D7F6171BD8B31A00D29063 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1D7F6181BD8B31A00D29063 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1D7F6171BD8B31A00D29063 /* NavRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavRootViewController.h; sourceTree = "<group>"; };
+		A1D7F6181BD8B31A00D29063 /* NavRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavRootViewController.m; sourceTree = "<group>"; };
 		A1D7F61B1BD8B31A00D29063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1D7F61D1BD8B31A00D29063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D7F6201BD8B31A00D29063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1D7F6221BD8B31A00D29063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1D7F62B1BD8B31A00D29063 /* ApplicationShortCutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationShortCutDemoTests.m; sourceTree = "<group>"; };
-		A1D7F62D1BD8B31A00D29063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1D7F6361BD8B31A00D29063 /* ApplicationShortCutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationShortCutDemoUITests.m; sourceTree = "<group>"; };
-		A1D7F6381BD8B31A00D29063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1D7F66D1BD8DA2500D29063 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
-		F78568A61C0463550090FA9C /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
 		F78568A81C0464C50090FA9C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F78568A91C0464C50090FA9C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +117,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				74ADC62C1DB8BB1A00E0494E /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B519391DC8480F00F8751C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B519401DC8480F00F8751C /* UserNotificationsUI.framework in Frameworks */,
+				74B5193E1DC8480F00F8751C /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				74ADC62B1DB8BB1A00E0494E /* NotificationCenter.framework */,
+				74B5193D1DC8480F00F8751C /* UserNotifications.framework */,
+				74B5193F1DC8480F00F8751C /* UserNotificationsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,13 +160,64 @@
 			path = My3DTouchDemoExtension;
 			sourceTree = "<group>";
 		};
+		74B519411DC8480F00F8751C /* My3DTouchDemoNotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				74B519421DC8480F00F8751C /* NotificationViewController.h */,
+				74B519431DC8480F00F8751C /* NotificationViewController.m */,
+				74B519451DC8480F00F8751C /* MainInterface.storyboard */,
+				74B519481DC8480F00F8751C /* Info.plist */,
+			);
+			path = My3DTouchDemoNotificationExtension;
+			sourceTree = "<group>";
+		};
+		74B519571DC8835A00F8751C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				74B519541DC87E1F00F8751C /* MyForceTouchManager.h */,
+				74B519551DC87E1F00F8751C /* MyForceTouchManager.m */,
+				74B519511DC87A3F00F8751C /* MyRemoteNotificationManager.h */,
+				74B519521DC87A3F00F8751C /* MyRemoteNotificationManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		74B519581DC8836900F8751C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74B519301DC8382100F8751C /* MyNavigationController.h */,
+				74B519311DC8382100F8751C /* MyNavigationController.m */,
+				74B519351DC839A100F8751C /* MyBaseViewController.h */,
+				74B519361DC839A200F8751C /* MyBaseViewController.m */,
+				A1D7F6171BD8B31A00D29063 /* NavRootViewController.h */,
+				A1D7F6181BD8B31A00D29063 /* NavRootViewController.m */,
+				74A7F0471D017D2100011762 /* FirstViewController.h */,
+				74A7F0481D017D2100011762 /* FirstViewController.m */,
+				74ADC63C1DB8BF9C00E0494E /* SecondViewController.h */,
+				74ADC63D1DB8BF9C00E0494E /* SecondViewController.m */,
+				F78568A81C0464C50090FA9C /* DetailViewController.h */,
+				F78568A91C0464C50090FA9C /* DetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74B519651DC8947B00F8751C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74B519661DC8947B00F8751C /* aa.png */,
+				74B519671DC8947B00F8751C /* search.png */,
+				74B519681DC8947B00F8751C /* test_1.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A1D7F6051BD8B31A00D29063 = {
 			isa = PBXGroup;
 			children = (
+				74B519501DC869DD00F8751C /* My3DTouchDemo.entitlements */,
 				A1D7F6101BD8B31A00D29063 /* ApplicationShortCutDemo */,
-				A1D7F62A1BD8B31A00D29063 /* ApplicationShortCutDemoTests */,
-				A1D7F6351BD8B31A00D29063 /* ApplicationShortCutDemoUITests */,
 				74ADC62D1DB8BB1A00E0494E /* My3DTouchDemoExtension */,
+				74B519411DC8480F00F8751C /* My3DTouchDemoNotificationExtension */,
 				74ADC62A1DB8BB1A00E0494E /* Frameworks */,
 				A1D7F60F1BD8B31A00D29063 /* Products */,
 			);
@@ -134,6 +228,7 @@
 			children = (
 				A1D7F60E1BD8B31A00D29063 /* My3DTouchDemo.app */,
 				74ADC6291DB8BB1A00E0494E /* My3DTouchDemoExtension.appex */,
+				74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,22 +236,15 @@
 		A1D7F6101BD8B31A00D29063 /* ApplicationShortCutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				74B519651DC8947B00F8751C /* Resources */,
 				A1D7F6141BD8B31A00D29063 /* AppDelegate.h */,
 				A1D7F6151BD8B31A00D29063 /* AppDelegate.m */,
-				A1D7F6171BD8B31A00D29063 /* ViewController.h */,
-				A1D7F6181BD8B31A00D29063 /* ViewController.m */,
-				F78568A81C0464C50090FA9C /* DetailViewController.h */,
-				F78568A91C0464C50090FA9C /* DetailViewController.m */,
-				74A7F0471D017D2100011762 /* FirstViewController.h */,
-				74A7F0481D017D2100011762 /* FirstViewController.m */,
-				74ADC63C1DB8BF9C00E0494E /* SecondViewController.h */,
-				74ADC63D1DB8BF9C00E0494E /* SecondViewController.m */,
+				74B519571DC8835A00F8751C /* Managers */,
+				74B519581DC8836900F8751C /* ViewControllers */,
 				A1D7F61D1BD8B31A00D29063 /* Assets.xcassets */,
 				A1D7F61A1BD8B31A00D29063 /* Main.storyboard */,
 				A1D7F61F1BD8B31A00D29063 /* LaunchScreen.storyboard */,
-				A1D7F66D1BD8DA2500D29063 /* search.png */,
 				A1D7F6221BD8B31A00D29063 /* Info.plist */,
-				F78568A61C0463550090FA9C /* aa.png */,
 				A1D7F6111BD8B31A00D29063 /* Supporting Files */,
 			);
 			path = ApplicationShortCutDemo;
@@ -168,24 +256,6 @@
 				A1D7F6121BD8B31A00D29063 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A1D7F62A1BD8B31A00D29063 /* ApplicationShortCutDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1D7F62B1BD8B31A00D29063 /* ApplicationShortCutDemoTests.m */,
-				A1D7F62D1BD8B31A00D29063 /* Info.plist */,
-			);
-			path = ApplicationShortCutDemoTests;
-			sourceTree = "<group>";
-		};
-		A1D7F6351BD8B31A00D29063 /* ApplicationShortCutDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A1D7F6361BD8B31A00D29063 /* ApplicationShortCutDemoUITests.m */,
-				A1D7F6381BD8B31A00D29063 /* Info.plist */,
-			);
-			path = ApplicationShortCutDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +278,23 @@
 			productReference = 74ADC6291DB8BB1A00E0494E /* My3DTouchDemoExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		74B5193B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B5194C1DC8480F00F8751C /* Build configuration list for PBXNativeTarget "My3DTouchDemoNotificationExtension" */;
+			buildPhases = (
+				74B519381DC8480F00F8751C /* Sources */,
+				74B519391DC8480F00F8751C /* Frameworks */,
+				74B5193A1DC8480F00F8751C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = My3DTouchDemoNotificationExtension;
+			productName = My3DTouchDemoNotificationExtension;
+			productReference = 74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A1D7F60D1BD8B31A00D29063 /* My3DTouchDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D7F63B1BD8B31A00D29063 /* Build configuration list for PBXNativeTarget "My3DTouchDemo" */;
@@ -221,6 +308,7 @@
 			);
 			dependencies = (
 				74ADC6361DB8BB1A00E0494E /* PBXTargetDependency */,
+				74B5194A1DC8480F00F8751C /* PBXTargetDependency */,
 			);
 			name = My3DTouchDemo;
 			productName = ApplicationShortCutDemo;
@@ -238,12 +326,22 @@
 				TargetAttributes = {
 					74ADC6281DB8BB1A00E0494E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PN6M73F9K4;
+						DevelopmentTeam = 5Z5MKT3DP2;
+						ProvisioningStyle = Automatic;
+					};
+					74B5193B1DC8480F00F8751C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5Z5MKT3DP2;
 						ProvisioningStyle = Automatic;
 					};
 					A1D7F60D1BD8B31A00D29063 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = PN6M73F9K4;
+						DevelopmentTeam = 5Z5MKT3DP2;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -262,6 +360,7 @@
 			targets = (
 				A1D7F60D1BD8B31A00D29063 /* My3DTouchDemo */,
 				74ADC6281DB8BB1A00E0494E /* My3DTouchDemoExtension */,
+				74B5193B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -275,15 +374,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74B5193A1DC8480F00F8751C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B519471DC8480F00F8751C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1D7F60C1BD8B31A00D29063 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B5196A1DC8947B00F8751C /* search.png in Resources */,
 				A1D7F6211BD8B31A00D29063 /* LaunchScreen.storyboard in Resources */,
 				A1D7F61E1BD8B31A00D29063 /* Assets.xcassets in Resources */,
 				A1D7F61C1BD8B31A00D29063 /* Main.storyboard in Resources */,
-				F78568A71C0463550090FA9C /* aa.png in Resources */,
-				A1D7F66E1BD8DA2500D29063 /* search.png in Resources */,
+				74B519691DC8947B00F8751C /* aa.png in Resources */,
+				74B5196B1DC8947B00F8751C /* test_1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,16 +406,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74B519381DC8480F00F8751C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B519441DC8480F00F8751C /* NotificationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1D7F60A1BD8B31A00D29063 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				74ADC63E1DB8BF9C00E0494E /* SecondViewController.m in Sources */,
-				A1D7F6191BD8B31A00D29063 /* ViewController.m in Sources */,
+				74B519371DC839A200F8751C /* MyBaseViewController.m in Sources */,
+				74B519331DC8382100F8751C /* MyNavigationController.m in Sources */,
+				A1D7F6191BD8B31A00D29063 /* NavRootViewController.m in Sources */,
+				74B519531DC87A3F00F8751C /* MyRemoteNotificationManager.m in Sources */,
 				A1D7F6161BD8B31A00D29063 /* AppDelegate.m in Sources */,
 				74A7F0491D017D2200011762 /* FirstViewController.m in Sources */,
 				A1D7F6131BD8B31A00D29063 /* main.m in Sources */,
 				F78568AA1C0464C50090FA9C /* DetailViewController.m in Sources */,
+				74B519561DC87E1F00F8751C /* MyForceTouchManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +438,11 @@
 			isa = PBXTargetDependency;
 			target = 74ADC6281DB8BB1A00E0494E /* My3DTouchDemoExtension */;
 			targetProxy = 74ADC6351DB8BB1A00E0494E /* PBXContainerItemProxy */;
+		};
+		74B5194A1DC8480F00F8751C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B5193B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension */;
+			targetProxy = 74B519491DC8480F00F8751C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -330,10 +455,19 @@
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
+		74B519451DC8480F00F8751C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B519461DC8480F00F8751C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		A1D7F61A1BD8B31A00D29063 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A1D7F61B1BD8B31A00D29063 /* Base */,
+				74B5196D1DC8A19200F8751C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -358,11 +492,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PN6M73F9K4;
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
 				INFOPLIST_FILE = My3DTouchDemoExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dahai.dahai.My3DTouchDemoExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky.My3DTouchDemoExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -377,11 +511,49 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PN6M73F9K4;
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
 				INFOPLIST_FILE = My3DTouchDemoExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dahai.dahai.My3DTouchDemoExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky.My3DTouchDemoExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74B5194D1DC8480F00F8751C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
+				INFOPLIST_FILE = My3DTouchDemoNotificationExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky.My3DTouchDemoNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74B5194E1DC8480F00F8751C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
+				INFOPLIST_FILE = My3DTouchDemoNotificationExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky.My3DTouchDemoNotificationExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -473,12 +645,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = My3DTouchDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PN6M73F9K4;
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
 				INFOPLIST_FILE = ApplicationShortCutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dahai.dahai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky;
 				PRODUCT_NAME = My3DTouchDemo;
 				PROVISIONING_PROFILE = "";
 			};
@@ -488,12 +661,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = My3DTouchDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PN6M73F9K4;
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
 				INFOPLIST_FILE = ApplicationShortCutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dahai.dahai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky;
 				PRODUCT_NAME = My3DTouchDemo;
 				PROVISIONING_PROFILE = "";
 			};
@@ -507,6 +681,15 @@
 			buildConfigurations = (
 				74ADC6391DB8BB1A00E0494E /* Debug */,
 				74ADC63A1DB8BB1A00E0494E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B5194C1DC8480F00F8751C /* Build configuration list for PBXNativeTarget "My3DTouchDemoNotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B5194D1DC8480F00F8751C /* Debug */,
+				74B5194E1DC8480F00F8751C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

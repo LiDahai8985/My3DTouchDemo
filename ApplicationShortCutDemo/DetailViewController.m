@@ -7,7 +7,7 @@
 //
 
 #import "DetailViewController.h"
-#import "ViewController.h"
+#import "NavRootViewController.h"
 
 @interface DetailViewController ()<UIWebViewDelegate>
 
