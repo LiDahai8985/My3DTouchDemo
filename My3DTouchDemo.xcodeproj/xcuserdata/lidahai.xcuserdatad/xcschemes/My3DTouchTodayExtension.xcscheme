@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "74ADC6281DB8BB1A00E0494E"
-               BuildableName = "My3DTouchDemoExtension.appex"
-               BlueprintName = "My3DTouchDemoExtension"
+               BuildableName = "My3DTouchTodayExtension.appex"
+               BlueprintName = "My3DTouchTodayExtension"
                ReferencedContainer = "container:My3DTouchDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,8 +48,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "74ADC6281DB8BB1A00E0494E"
-            BuildableName = "My3DTouchDemoExtension.appex"
-            BlueprintName = "My3DTouchDemoExtension"
+            BuildableName = "My3DTouchTodayExtension.appex"
+            BlueprintName = "My3DTouchTodayExtension"
             ReferencedContainer = "container:My3DTouchDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

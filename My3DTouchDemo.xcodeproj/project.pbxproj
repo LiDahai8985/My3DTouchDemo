@@ -11,7 +11,7 @@
 		74ADC62C1DB8BB1A00E0494E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ADC62B1DB8BB1A00E0494E /* NotificationCenter.framework */; };
 		74ADC6301DB8BB1A00E0494E /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ADC62F1DB8BB1A00E0494E /* TodayViewController.m */; };
 		74ADC6331DB8BB1A00E0494E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74ADC6311DB8BB1A00E0494E /* MainInterface.storyboard */; };
-		74ADC6371DB8BB1A00E0494E /* My3DTouchDemoExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74ADC6291DB8BB1A00E0494E /* My3DTouchDemoExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74ADC6371DB8BB1A00E0494E /* My3DTouchTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74ADC6291DB8BB1A00E0494E /* My3DTouchTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		74ADC63E1DB8BF9C00E0494E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ADC63D1DB8BF9C00E0494E /* SecondViewController.m */; };
 		74B519331DC8382100F8751C /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519311DC8382100F8751C /* MyNavigationController.m */; };
 		74B519371DC839A200F8751C /* MyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519361DC839A200F8751C /* MyBaseViewController.m */; };
@@ -19,12 +19,15 @@
 		74B519401DC8480F00F8751C /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B5193F1DC8480F00F8751C /* UserNotificationsUI.framework */; };
 		74B519441DC8480F00F8751C /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519431DC8480F00F8751C /* NotificationViewController.m */; };
 		74B519471DC8480F00F8751C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B519451DC8480F00F8751C /* MainInterface.storyboard */; };
-		74B5194B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74B5194B1DC8480F00F8751C /* My3DTouchNotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74B5193C1DC8480F00F8751C /* My3DTouchNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		74B519531DC87A3F00F8751C /* MyRemoteNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519521DC87A3F00F8751C /* MyRemoteNotificationManager.m */; };
 		74B519561DC87E1F00F8751C /* MyForceTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B519551DC87E1F00F8751C /* MyForceTouchManager.m */; };
 		74B519691DC8947B00F8751C /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B519661DC8947B00F8751C /* aa.png */; };
 		74B5196A1DC8947B00F8751C /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B519671DC8947B00F8751C /* search.png */; };
 		74B5196B1DC8947B00F8751C /* test_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74B519681DC8947B00F8751C /* test_1.mp4 */; };
+		74B81CFA1DC98CC200158DF8 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B81CF91DC98CC200158DF8 /* NotificationService.m */; };
+		74B81CFE1DC98CC200158DF8 /* My3DTouchNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74B81CF61DC98CC200158DF8 /* My3DTouchNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74B81D031DC99B9E00158DF8 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B81D021DC99B9E00158DF8 /* 9.png */; };
 		A1D7F6131BD8B31A00D29063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7F6121BD8B31A00D29063 /* main.m */; };
 		A1D7F6161BD8B31A00D29063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7F6151BD8B31A00D29063 /* AppDelegate.m */; };
 		A1D7F6191BD8B31A00D29063 /* NavRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7F6181BD8B31A00D29063 /* NavRootViewController.m */; };
@@ -49,6 +52,13 @@
 			remoteGlobalIDString = 74B5193B1DC8480F00F8751C;
 			remoteInfo = My3DTouchDemoNotificationExtension;
 		};
+		74B81CFC1DC98CC200158DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D7F6061BD8B31A00D29063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B81CF51DC98CC200158DF8;
+			remoteInfo = My3DTouchNotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,8 +68,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				74ADC6371DB8BB1A00E0494E /* My3DTouchDemoExtension.appex in Embed App Extensions */,
-				74B5194B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex in Embed App Extensions */,
+				74B81CFE1DC98CC200158DF8 /* My3DTouchNotificationServiceExtension.appex in Embed App Extensions */,
+				74ADC6371DB8BB1A00E0494E /* My3DTouchTodayExtension.appex in Embed App Extensions */,
+				74B5194B1DC8480F00F8751C /* My3DTouchNotificationContentExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +80,7 @@
 /* Begin PBXFileReference section */
 		74A7F0471D017D2100011762 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		74A7F0481D017D2100011762 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		74ADC6291DB8BB1A00E0494E /* My3DTouchDemoExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = My3DTouchDemoExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74ADC6291DB8BB1A00E0494E /* My3DTouchTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = My3DTouchTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ADC62B1DB8BB1A00E0494E /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		74ADC62E1DB8BB1A00E0494E /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		74ADC62F1DB8BB1A00E0494E /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
@@ -81,7 +92,7 @@
 		74B519311DC8382100F8751C /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 		74B519351DC839A100F8751C /* MyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBaseViewController.h; sourceTree = "<group>"; };
 		74B519361DC839A200F8751C /* MyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBaseViewController.m; sourceTree = "<group>"; };
-		74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = My3DTouchDemoNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B5193C1DC8480F00F8751C /* My3DTouchNotificationContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = My3DTouchNotificationContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B5193D1DC8480F00F8751C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		74B5193F1DC8480F00F8751C /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		74B519421DC8480F00F8751C /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
@@ -97,6 +108,11 @@
 		74B519671DC8947B00F8751C /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		74B519681DC8947B00F8751C /* test_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_1.mp4; sourceTree = "<group>"; };
 		74B5196D1DC8A19200F8751C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		74B81CF61DC98CC200158DF8 /* My3DTouchNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = My3DTouchNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B81CF81DC98CC200158DF8 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		74B81CF91DC98CC200158DF8 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		74B81CFB1DC98CC200158DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B81D021DC99B9E00158DF8 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		A1D7F60E1BD8B31A00D29063 /* My3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D7F6121BD8B31A00D29063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1D7F6141BD8B31A00D29063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +145,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74B81CF31DC98CC200158DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1D7F60B1BD8B31A00D29063 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,7 +172,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		74ADC62D1DB8BB1A00E0494E /* My3DTouchDemoExtension */ = {
+		74ADC62D1DB8BB1A00E0494E /* My3DTouchTodayExtension */ = {
 			isa = PBXGroup;
 			children = (
 				74ADC62E1DB8BB1A00E0494E /* TodayViewController.h */,
@@ -157,10 +180,11 @@
 				74ADC6311DB8BB1A00E0494E /* MainInterface.storyboard */,
 				74ADC6341DB8BB1A00E0494E /* Info.plist */,
 			);
+			name = My3DTouchTodayExtension;
 			path = My3DTouchDemoExtension;
 			sourceTree = "<group>";
 		};
-		74B519411DC8480F00F8751C /* My3DTouchDemoNotificationExtension */ = {
+		74B519411DC8480F00F8751C /* My3DTouchNotificationContentExtension */ = {
 			isa = PBXGroup;
 			children = (
 				74B519421DC8480F00F8751C /* NotificationViewController.h */,
@@ -168,6 +192,7 @@
 				74B519451DC8480F00F8751C /* MainInterface.storyboard */,
 				74B519481DC8480F00F8751C /* Info.plist */,
 			);
+			name = My3DTouchNotificationContentExtension;
 			path = My3DTouchDemoNotificationExtension;
 			sourceTree = "<group>";
 		};
@@ -211,13 +236,25 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		74B81CF71DC98CC200158DF8 /* My3DTouchNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				74B81D021DC99B9E00158DF8 /* 9.png */,
+				74B81CF81DC98CC200158DF8 /* NotificationService.h */,
+				74B81CF91DC98CC200158DF8 /* NotificationService.m */,
+				74B81CFB1DC98CC200158DF8 /* Info.plist */,
+			);
+			path = My3DTouchNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		A1D7F6051BD8B31A00D29063 = {
 			isa = PBXGroup;
 			children = (
 				74B519501DC869DD00F8751C /* My3DTouchDemo.entitlements */,
 				A1D7F6101BD8B31A00D29063 /* ApplicationShortCutDemo */,
-				74ADC62D1DB8BB1A00E0494E /* My3DTouchDemoExtension */,
-				74B519411DC8480F00F8751C /* My3DTouchDemoNotificationExtension */,
+				74ADC62D1DB8BB1A00E0494E /* My3DTouchTodayExtension */,
+				74B519411DC8480F00F8751C /* My3DTouchNotificationContentExtension */,
+				74B81CF71DC98CC200158DF8 /* My3DTouchNotificationServiceExtension */,
 				74ADC62A1DB8BB1A00E0494E /* Frameworks */,
 				A1D7F60F1BD8B31A00D29063 /* Products */,
 			);
@@ -227,8 +264,9 @@
 			isa = PBXGroup;
 			children = (
 				A1D7F60E1BD8B31A00D29063 /* My3DTouchDemo.app */,
-				74ADC6291DB8BB1A00E0494E /* My3DTouchDemoExtension.appex */,
-				74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */,
+				74ADC6291DB8BB1A00E0494E /* My3DTouchTodayExtension.appex */,
+				74B5193C1DC8480F00F8751C /* My3DTouchNotificationContentExtension.appex */,
+				74B81CF61DC98CC200158DF8 /* My3DTouchNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,9 +299,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74ADC6281DB8BB1A00E0494E /* My3DTouchDemoExtension */ = {
+		74ADC6281DB8BB1A00E0494E /* My3DTouchTodayExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74ADC6381DB8BB1A00E0494E /* Build configuration list for PBXNativeTarget "My3DTouchDemoExtension" */;
+			buildConfigurationList = 74ADC6381DB8BB1A00E0494E /* Build configuration list for PBXNativeTarget "My3DTouchTodayExtension" */;
 			buildPhases = (
 				74ADC6251DB8BB1A00E0494E /* Sources */,
 				74ADC6261DB8BB1A00E0494E /* Frameworks */,
@@ -273,14 +311,14 @@
 			);
 			dependencies = (
 			);
-			name = My3DTouchDemoExtension;
+			name = My3DTouchTodayExtension;
 			productName = My3DTouchDemoExtension;
-			productReference = 74ADC6291DB8BB1A00E0494E /* My3DTouchDemoExtension.appex */;
+			productReference = 74ADC6291DB8BB1A00E0494E /* My3DTouchTodayExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		74B5193B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension */ = {
+		74B5193B1DC8480F00F8751C /* My3DTouchNotificationContentExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74B5194C1DC8480F00F8751C /* Build configuration list for PBXNativeTarget "My3DTouchDemoNotificationExtension" */;
+			buildConfigurationList = 74B5194C1DC8480F00F8751C /* Build configuration list for PBXNativeTarget "My3DTouchNotificationContentExtension" */;
 			buildPhases = (
 				74B519381DC8480F00F8751C /* Sources */,
 				74B519391DC8480F00F8751C /* Frameworks */,
@@ -290,9 +328,26 @@
 			);
 			dependencies = (
 			);
-			name = My3DTouchDemoNotificationExtension;
+			name = My3DTouchNotificationContentExtension;
 			productName = My3DTouchDemoNotificationExtension;
-			productReference = 74B5193C1DC8480F00F8751C /* My3DTouchDemoNotificationExtension.appex */;
+			productReference = 74B5193C1DC8480F00F8751C /* My3DTouchNotificationContentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		74B81CF51DC98CC200158DF8 /* My3DTouchNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B81D011DC98CC200158DF8 /* Build configuration list for PBXNativeTarget "My3DTouchNotificationServiceExtension" */;
+			buildPhases = (
+				74B81CF21DC98CC200158DF8 /* Sources */,
+				74B81CF31DC98CC200158DF8 /* Frameworks */,
+				74B81CF41DC98CC200158DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = My3DTouchNotificationServiceExtension;
+			productName = My3DTouchNotificationServiceExtension;
+			productReference = 74B81CF61DC98CC200158DF8 /* My3DTouchNotificationServiceExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		A1D7F60D1BD8B31A00D29063 /* My3DTouchDemo */ = {
@@ -309,6 +364,7 @@
 			dependencies = (
 				74ADC6361DB8BB1A00E0494E /* PBXTargetDependency */,
 				74B5194A1DC8480F00F8751C /* PBXTargetDependency */,
+				74B81CFD1DC98CC200158DF8 /* PBXTargetDependency */,
 			);
 			name = My3DTouchDemo;
 			productName = ApplicationShortCutDemo;
@@ -330,6 +386,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					74B5193B1DC8480F00F8751C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5Z5MKT3DP2;
+						ProvisioningStyle = Automatic;
+					};
+					74B81CF51DC98CC200158DF8 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5Z5MKT3DP2;
 						ProvisioningStyle = Automatic;
@@ -359,8 +420,9 @@
 			projectRoot = "";
 			targets = (
 				A1D7F60D1BD8B31A00D29063 /* My3DTouchDemo */,
-				74ADC6281DB8BB1A00E0494E /* My3DTouchDemoExtension */,
-				74B5193B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension */,
+				74ADC6281DB8BB1A00E0494E /* My3DTouchTodayExtension */,
+				74B5193B1DC8480F00F8751C /* My3DTouchNotificationContentExtension */,
+				74B81CF51DC98CC200158DF8 /* My3DTouchNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -379,6 +441,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B519471DC8480F00F8751C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B81CF41DC98CC200158DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B81D031DC99B9E00158DF8 /* 9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +484,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74B81CF21DC98CC200158DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B81CFA1DC98CC200158DF8 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1D7F60A1BD8B31A00D29063 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,13 +514,18 @@
 /* Begin PBXTargetDependency section */
 		74ADC6361DB8BB1A00E0494E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74ADC6281DB8BB1A00E0494E /* My3DTouchDemoExtension */;
+			target = 74ADC6281DB8BB1A00E0494E /* My3DTouchTodayExtension */;
 			targetProxy = 74ADC6351DB8BB1A00E0494E /* PBXContainerItemProxy */;
 		};
 		74B5194A1DC8480F00F8751C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74B5193B1DC8480F00F8751C /* My3DTouchDemoNotificationExtension */;
+			target = 74B5193B1DC8480F00F8751C /* My3DTouchNotificationContentExtension */;
 			targetProxy = 74B519491DC8480F00F8751C /* PBXContainerItemProxy */;
+		};
+		74B81CFD1DC98CC200158DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B81CF51DC98CC200158DF8 /* My3DTouchNotificationServiceExtension */;
+			targetProxy = 74B81CFC1DC98CC200158DF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -554,6 +637,44 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky.My3DTouchDemoNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74B81CFF1DC98CC200158DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
+				INFOPLIST_FILE = My3DTouchNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky.My3DTouchNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74B81D001DC98CC200158DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z5MKT3DP2;
+				INFOPLIST_FILE = My3DTouchNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lljz.ninesky.My3DTouchNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -676,7 +797,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74ADC6381DB8BB1A00E0494E /* Build configuration list for PBXNativeTarget "My3DTouchDemoExtension" */ = {
+		74ADC6381DB8BB1A00E0494E /* Build configuration list for PBXNativeTarget "My3DTouchTodayExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74ADC6391DB8BB1A00E0494E /* Debug */,
@@ -685,11 +806,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74B5194C1DC8480F00F8751C /* Build configuration list for PBXNativeTarget "My3DTouchDemoNotificationExtension" */ = {
+		74B5194C1DC8480F00F8751C /* Build configuration list for PBXNativeTarget "My3DTouchNotificationContentExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74B5194D1DC8480F00F8751C /* Debug */,
 				74B5194E1DC8480F00F8751C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B81D011DC98CC200158DF8 /* Build configuration list for PBXNativeTarget "My3DTouchNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B81CFF1DC98CC200158DF8 /* Debug */,
+				74B81D001DC98CC200158DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

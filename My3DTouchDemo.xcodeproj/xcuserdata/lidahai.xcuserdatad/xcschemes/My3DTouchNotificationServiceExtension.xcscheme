@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "74B5193B1DC8480F00F8751C"
-               BuildableName = "My3DTouchDemoNotificationExtension.appex"
-               BlueprintName = "My3DTouchDemoNotificationExtension"
+               BlueprintIdentifier = "74B81CF51DC98CC200158DF8"
+               BuildableName = "My3DTouchNotificationServiceExtension.appex"
+               BlueprintName = "My3DTouchNotificationServiceExtension"
                ReferencedContainer = "container:My3DTouchDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "74B5193B1DC8480F00F8751C"
-            BuildableName = "My3DTouchDemoNotificationExtension.appex"
-            BlueprintName = "My3DTouchDemoNotificationExtension"
+            BlueprintIdentifier = "74B81CF51DC98CC200158DF8"
+            BuildableName = "My3DTouchNotificationServiceExtension.appex"
+            BlueprintName = "My3DTouchNotificationServiceExtension"
             ReferencedContainer = "container:My3DTouchDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,8 +67,12 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "0"
+         BundleIdentifier = "com.lljz.ninesky"
+         RemotePath = "/var/containers/Bundle/Application/33289236-F61A-4C2C-B45C-C5BBACE508DB/My3DTouchDemo.app">
+      </RemoteRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1D7F60D1BD8B31A00D29063"
@@ -76,7 +80,7 @@
             BlueprintName = "My3DTouchDemo"
             ReferencedContainer = "container:My3DTouchDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
